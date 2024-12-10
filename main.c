@@ -469,9 +469,9 @@ void trier_distances(float distances[], int indices[], int n) {
                 distances[j] = distances[j + 1];
                 distances[j + 1] = temp_dist;
 
-                int temp_index = indices[j];
+                int temp_indice = indices[j];
                 indices[j] = indices[j + 1];
-                indices[j + 1] = temp_index;
+                indices[j + 1] = temp_indice;
             }
         }
     }
